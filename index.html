@@ -4,7 +4,16 @@
   <div class="social"><div class="fb-like" data-href="https://www.facebook.com/salipropham.it" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
   <div class="g-plusone" data-size="medium" data-href="http://www.blogit.info/"></div></div></div></div>
   <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>
+window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '501719016594726',
+          xfbml      : true,
+          version    : 'v2.1'
+        });
+      };
+
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
@@ -17,7 +26,7 @@
     "/{object-id}/likes",
     function (response) {
       if (response && !response.error) {
-        /* handle the result */
+        console.log(response);
       }
     }
 );
