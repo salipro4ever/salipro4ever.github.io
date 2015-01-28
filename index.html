@@ -4,9 +4,24 @@ title: Salipro4ever Home
 author: SaliproPham
 ---
 
-<h1>Salipro4ever Github Page</h1>
+<section id="home" class="home-parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20" style="background-position: 50% -100px;">
+    <div class="home-overlay">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="info">
+                    <h2>Salipro Phạm</h2>
+                    <h3>DESIGNER + DEVELOPER</h3>
+                </div><!-- end .info -->
+            </div><!-- end .col-md-12 -->
+        </div><!-- end .cotainer -->
 
-<ul>
+        <div class="avatar-section">
+            <img src="/images/avatar512.jpg" class="img-responsive" alt="">
+        </div><!-- end .avatar-section -->
+    </div><!-- end .home-overlay -->
+</section>
+
+<ul style="display: none">
     {% for post in site.posts %}
     <li>
         <a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a>
