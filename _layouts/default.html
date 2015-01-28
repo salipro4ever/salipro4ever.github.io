@@ -7,5 +7,11 @@
 <body>
 {{ content }}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+    jQuery(function($){
+        var a = $(document).height();
+        (a-500>400) && ($('.home-overlay').height(a-350-220))
+    })
+</script>
 </body>
 </html>
