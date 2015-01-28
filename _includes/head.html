@@ -34,13 +34,20 @@
     }
     .avatar-section img {
         border: 10px solid #E1E1E4;
-        border-radius: 250px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
         height: 460px;
         margin: 0 auto;
         width: 460px;
     }
     /* Tablets */
     @media only screen and (max-width : 768px) {
+        .home-overlay {
+            padding-bottom: 150px;
+        }
+        .info {
+            margin-top: 50px;
+        }
         .info > h2 {
             font-weight: 400;
             font-size: 40px;
