@@ -32,7 +32,7 @@
 --------------------- */
 #about .color-line{background-color:#1BBC9B}
 #about{background-color:#EDEDED;font-size:1.125em}
-#about .about-outer{margin:100px 0 50px}
+#about .about-outer{margin:100px -15px 50px}
 #about .avatar-cont > img{width:300px;border:8px solid #FFF;box-shadow:0 1px 2px 0 #AAA;margin:0 auto;min-height:300px;border-radius:5px;-moz-border-radius:5px}
 #about .info-cont{color:#666}
 #about .info-cont .info-title{float:left;margin-right:20px;font-weight:700}
@@ -77,4 +77,12 @@
     .avatar-section img{height:260px;width:260px}
     .selfintro{font-size:1.125em}
     .nav-menu ul li > a{font-size:1.5em;line-height:50px;width:50px;height:50px;margin:0 5px}
+
+    /* ABOUT ---- */
+    #about .avatar-cont > img { min-height: inherit; }
+    #about .info-cont .name{font-size:2.5em;text-align:center}
+    #about .info-cont2{font-size:.875em}
+    #about .info-cont .follow-me{text-align:center;text-align:center}
+    #about .info-cont .follow-me > li > a{margin:0 3px}
+    #about .info-cont .info-title{margin-right:5px}
 }
