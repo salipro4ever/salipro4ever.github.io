@@ -9,6 +9,7 @@
 .avatar-section{margin:-320px auto 0;text-align:center;position:absolute;top:100%;width:100%;display:block}
 .avatar-section img{border:10px solid #E1E1E4;border-radius:50%;-webkit-border-radius:50%;height:460px;margin:0 auto;width:460px;background:#FFF;-moz-box-shadow:0 1px 10px 0 #555;-webkit-box-shadow:0 1px 10px 0 #555;box-shadow:0 1px 10px 0 #555}
 .selfintro{font-size:1.5em;max-width:1000px;margin:20px auto;padding:0 15px}
+.nav-menu {margin-bottom: 30px;}
 .nav-menu ul li{display:inline-block}
 .nav-menu ul li > a{font-size:2.5em;line-height:60px;width:60px;height:60px;display:block;background-color:#5D6372;color:#FFF;border-radius:50%;margin:0 10px}
 .nav-menu ul li > a > i.fa{margin-left:0}
