@@ -81,7 +81,7 @@
     /* ABOUT ---- */
     #about .avatar-cont > img { min-height: inherit; }
     #about .info-cont .name{font-size:2.5em;text-align:center}
-    #about .info-cont2{font-size:.875em}
+    #about .info-cont2{font-size:.875em;max-width: 320px;margin: 0 auto}
     #about .info-cont .follow-me{text-align:center;text-align:center}
     #about .info-cont .follow-me > li > a{margin:0 3px}
     #about .info-cont .info-title{margin-right:5px}
