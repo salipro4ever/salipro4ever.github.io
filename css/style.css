@@ -89,6 +89,12 @@
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
 }
+#about a {
+    color: #1BBC9B;
+}
+#about a:hover {
+    color: #1BBC9B;
+}
 #skill .border {background-color: #1BBC9B;}
 #skill .chart {
     position: relative;
