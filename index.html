@@ -4,22 +4,52 @@ title: Salipro4ever Home
 author: SaliproPham
 ---
 
-<section id="home" class="home-parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20" style="background-position: 50% -100px;">
+<section id="home" class="home-parallax">
     <div class="home-overlay">
         <div class="container">
             <div class="col-md-12">
                 <div class="info">
-                    <h2>Salipro Phạm</h2>
-                    <h3>DESIGNER + DEVELOPER</h3>
-                </div><!-- end .info -->
-            </div><!-- end .col-md-12 -->
-        </div><!-- end .cotainer -->
+                    <h2 class="animating fade-in-down">Salipro Phạm</h2>
 
+                    <h3 class="animating fade-in">DESIGNER + DEVELOPER</h3>
+                </div>
+                <!-- end .info -->
+            </div>
+            <!-- end .col-md-12 -->
+        </div>
+        <!-- end .cotainer -->
         <div class="avatar-section">
-            <img src="/images/avatar512.jpg" class="img-responsive" alt="">
-        </div><!-- end .avatar-section -->
-    </div><!-- end .home-overlay -->
+            <img src="images/avatar512.jpg" class="img-responsive" alt="">
+
+            <p class="selfintro animating fade-in">
+                Information Technology is not merely a job that I have chosen but it is an own indulgence. With gained
+                knowledge and it, I’m self-confident and willing to encounter the challenging of working cause someone
+                said that “<i>There is nothing impossible for those who have strong will</i>”.
+            </p>
+            <!-- nav -->
+            <div class="nav-menu">
+                <ul class="list-unstyled animating bounce-in">
+                    <li>
+                        <a href="/about" title="About me"><i class="fa fa-home"></i></a></li>
+                    </li>
+                    <li>
+                        <a href="/resume" title="Resume"><i class="fa fa-history"></i></a></li>
+                    </li>
+                    <li>
+                        <a href="/portfolio" title="Portfolio"><i class="fa fa-folder-open" style="margin-left: 5px"></i></a></li>
+                    </li>
+                    <li>
+                        <a href="http://blogit.info" title="Blog"><i class="fa fa-link" ></i></a></li>
+                    </li>
+                </ul>
+            </div>
+            </ul>
+        </div>
+
+    </div>
+    <!-- end .home-overlay -->
 </section>
+
 
 <ul style="display: none">
     {% for post in site.posts %}
