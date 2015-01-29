@@ -1,4 +1,18 @@
 
+.color-line {background-color: #1BBC9B;height: 5px;display: block;}
+.border {
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 3px;
+}
+.section-title {
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    margin: 60px;
+}
+
 /*! HOME
 --------------------- */
 
@@ -13,6 +27,98 @@
 .nav-menu ul li{display:inline-block}
 .nav-menu ul li > a{font-size:2.5em;line-height:60px;width:60px;height:60px;display:block;background-color:#5D6372;color:#FFF;border-radius:50%;margin:0 10px}
 .nav-menu ul li > a > i.fa{margin-left:0}
+
+/*! ABOUT
+--------------------- #1BBC9B*/
+
+#about .color-line {
+    background-color: #1BBC9B;
+}
+#about {
+    background-color: #EDEDED;
+    font-size: 1.125em;
+}
+#about .about-outer {
+    margin: 100px 0 50px;
+}
+#about .avatar-cont > img {
+    width: 300px;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0 1px 2px 0px #AAA;
+    margin: 0 auto;
+    min-height: 300px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+#about .info-cont {
+    color: #666;
+}
+#about .info-cont .info-title {
+    float: left;
+    margin-right: 20px;
+    font-weight: bold;
+}
+#about .info-cont .name {
+    font-size: 3em;
+    font-weight: 400;
+}
+#about .info-cont .follow-me {
+    display: block;
+    margin: 20px 0;
+}
+#about .info-cont .follow-me > li {
+    display: inline-block;
+}
+#about .info-cont .follow-me > li > a {
+    font-size: 1.5em;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-color: #5D6372;
+    color: #FFF;
+    border-radius: 50%;
+    margin: 0 6px;
+    text-align: center;
+}
+#about .info-cont .follow-me > li > a:hover {
+    background-color: #1BBC9B;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+#skill .border {background-color: #1BBC9B;}
+#skill .chart {
+    position: relative;
+    padding: 0 10px;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+#skill .chart p {
+    color: #9fa3a9;
+    font-size: 30px;
+    line-height: 100px;
+}
+#skill .chart p sup {
+    font-size: 18px;
+    top: -1.2em;
+}
+#skill .chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#skill .skills-content {
+    text-align: center;
+}
+#skill .chart-padding {
+    margin-bottom: 30px;
+}
 
 /*! RESPONSIVE
 ----------------------- */

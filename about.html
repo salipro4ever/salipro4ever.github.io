@@ -1,0 +1,98 @@
+<section id="about" class="fluid-block">
+    <div class="color-line"></div>
+    <div class="container">
+        <div class="row about-outer">
+            <div class="col-sm-5 avatar-cont">
+                <img src="images/avatar512.jpg" alt="SaliproPham" class="img-responsive">
+            </div>
+            <div class="col-sm-7 info-cont">
+                <p class="name">Salipro Phạm</span></p>
+                <div>
+                    <div class="info-title">
+                        <p>Birthday</p>
+                        <p>Email</p>
+                        <p>Skype</p>
+                        <p>Website</p>
+                        <p>Address</p>
+                    </div> <!-- end .info-title -->
+                    <div class="info-details">
+                        <p>: 1990-01-10</p>
+                        <p>: huynhsang.4ever@gmail.com</p>
+                        <p>: huynhsang.4ever</p>
+                        <p>: <a href="http://blogit.info" target="_blank">www.blogit.info</a></p>
+                        <p>: District 5, Ho Chi Minh City, Viet Nam.</p>
+                    </div><!-- end .info-details -->
+                </div>
+                <ul class="list-unstyled follow-me">
+                    <li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li></li>
+                    <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li></li>
+                    <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li></li>
+                    <li><a href="#" title="Github"><i class="fa fa-github-alt"></i></a></li></li>
+                    <li><a href="#" title="Stack Overflow"><i class="fa fa-stack-overflow"></i></a></li></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="skill" class="fluid-block">
+    <div class="container">
+        <h2 class="section-title">
+            SKILLS
+            <span class="border"></span>
+        </h2>
+        <div class="row">
+            {% for skill in site.data.skills %}
+            <div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+                <div class="chart" data-percent="{{ skill.level }}"><p>{{ skill.level }}<sup>%</sup></p><canvas height="100" width="100"></canvas></div>
+                <div class="skills-content">
+                    <h4>{{ skill.name }}</h4>
+                </div>
+            </div>
+            {% endfor %}
+            <div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+                <div class="chart" data-percent="80"><p>80<sup>%</sup></p><canvas height="100" width="100"></canvas></div>
+                <div class="skills-content">
+                    <h4>JAVASCRIPT</h4>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+                <div class="chart" data-percent="92"><p>92<sup>%</sup></p><canvas height="100" width="100"></canvas></div>
+                <div class="skills-content">
+                    <h4>jQUERY</h4>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+                <div class="chart" data-percent="89"><p>89<sup>%</sup></p><canvas height="100" width="100"></canvas></div>
+                <div class="skills-content">
+                    <h4>PHP</h4>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+                <div class="chart" data-percent="80"><p>80<sup>%</sup></p><canvas height="100" width="100"></canvas></div>
+                <div class="skills-content">
+                    <h4>NODEJS</h4>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+                <div class="chart" data-percent="40"><p>40<sup>%</sup></p><canvas height="100" width="100"></canvas></div>
+                <div class="skills-content">
+                    <h4>JAVA</h4>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+                <div class="chart" data-percent="65"><p>65<sup>%</sup></p><canvas height="100" width="100"></canvas></div>
+                <div class="skills-content">
+                    <h4>PHOTOSHOP</h4>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
