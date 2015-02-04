@@ -1,11 +1,27 @@
 ---
 layout: default
-title: Salipro4ever - About me
+title: SaliproPham - About me
 author: SaliproPham
 ---
 
 <section id="about" class="fluid-block">
     <div class="color-line"></div>
+    <div class="nav-menu at-page">
+    <ul class="list-unstyled animating bounce-in">
+        <li>
+            <a href="/" title="Home"><i class="fa fa-home"></i></a></li>
+        </li>
+        <li>
+            <a href="/resume.html" title="Resume"><i class="fa fa-history"></i></a></li>
+        </li>
+        <li>
+            <a href="/portfolio.html" title="Portfolio"><i class="fa fa-folder-open" style="margin-left: 5px"></i></a></li>
+        </li>
+        <li>
+            <a href="http://blogit.info" title="Blog"><i class="fa fa-link" ></i></a></li>
+        </li>
+    </ul>
+</div>
     <div class="container animating fade-in">
         <div class="row about-outer">
             <div class="col-sm-5 avatar-cont">
@@ -49,7 +65,7 @@ author: SaliproPham
         </h2>
         <div class="row">
             {% for skill in site.data.skills %}
-            <div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+            <div class="col-xs-6 col-sm-4 col-md-3 chart-padding">
                 <div class="chart" data-percent="{{ skill.level }}"><p>{{ skill.level }}<sup>%</sup></p><canvas height="100" width="100"></canvas></div>
                 <div class="skills-content">
                     <h4>{{ skill.name }}</h4>
