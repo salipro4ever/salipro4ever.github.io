@@ -152,4 +152,6 @@
     #about .info-cont .follow-me{text-align:center;text-align:center}
     #about .info-cont .follow-me > li > a{margin:0 3px}
     #about .info-cont .info-title{margin-right:5px}
+
+    .section-title h2 {line-height: 30px;font-size: 30px;}
 }
