@@ -1,4 +1,10 @@
-[
+[    
+    {
+        "name": "wWw.Blogit.Info",
+        "screenshot": "/images/proshot-blogit.jpg",
+        "url": "http://blogit.info",
+        "desc": "This is my blog where I can study and share my indulgence. [10/2011]"
+    },
     {
         "name": "GiaGia Site",
         "screenshot": "/images/proshot-giagiasite.jpg",
