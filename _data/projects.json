@@ -3,13 +3,13 @@
         "name": "GiaGia Site",
         "screenshot": "/images/proshot-giagiasite.jpg",
         "url": "",
-        "desc": "This is first customer, a website about health services that had built by Joomla CMS. [11/2013]"
+        "desc": "This is first customer, a website about health services that had built by Joomla CMS. [11/2011]"
     },
     {
-        "name": "XXX",
-        "screenshot": "https://farm8.staticflickr.com/7458/16443415532_1651e5a595_b.jpg",
-        "url": "",
-        "desc": "I'm selfish, impatient, and a little insecure. I make mistakes, I'm out of control, and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best."
+        "name": "Milu Talk",
+        "screenshot": "/images/proshot-milutalk.jpg",
+        "url": "http://www.milu.jp/news/notice_read.php?category=&idx=8096&page=1",
+        "desc": "A multi-platform app use to chat, send photo... It had developed to support Milu gamer, a longtime game in Japan. We use HTML5 and SocketIO. [03/2012]"
     }
 
 ]
